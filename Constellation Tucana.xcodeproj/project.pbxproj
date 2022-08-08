@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D0F859C289233B800B13970 /* CocoaMQTT in Frameworks */ = {isa = PBXBuildFile; productRef = 7D0F859B289233B800B13970 /* CocoaMQTT */; };
+		7D0F859F289233CA00B13970 /* CoatySwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7D0F859E289233CA00B13970 /* CoatySwift */; };
+		7D8B7F6D28A049DF00C7E620 /* CoatyObject+Identifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8B7F6C28A049DF00C7E620 /* CoatyObject+Identifiable.swift */; };
+		7D8B7F7028A049FC00C7E620 /* CoatyError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8B7F6F28A049FC00C7E620 /* CoatyError.swift */; };
+		7D8B7F7228A04A6500C7E620 /* DiscoverManifestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8B7F7128A04A6500C7E620 /* DiscoverManifestController.swift */; };
+		7D8B7F7528A04B5100C7E620 /* DiscoverManifestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8B7F7428A04B5100C7E620 /* DiscoverManifestView.swift */; };
+		7D8B7F7728A04BD000C7E620 /* ConstellationServiceManifest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8B7F7628A04BD000C7E620 /* ConstellationServiceManifest.swift */; };
+		7D8B7F7928A04D6E00C7E620 /* UpdatableObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8B7F7828A04D6E00C7E620 /* UpdatableObject.swift */; };
+		7D8B7F7D28A065A400C7E620 /* UpdatingLifecycleController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D8B7F7C28A065A400C7E620 /* UpdatingLifecycleController.swift */; };
+		7D9F78C32891DCE200E8AA3E /* Constellation_TucanaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F78C22891DCE200E8AA3E /* Constellation_TucanaApp.swift */; };
+		7D9F78C52891DCE200E8AA3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F78C42891DCE200E8AA3E /* ContentView.swift */; };
+		7D9F78C72891DCE400E8AA3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9F78C62891DCE400E8AA3E /* Assets.xcassets */; };
+		7D9F78CA2891DCE400E8AA3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D9F78C92891DCE400E8AA3E /* Preview Assets.xcassets */; };
+		7D9F78D42891DE7400E8AA3E /* CoatyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F78D32891DE7300E8AA3E /* CoatyService.swift */; };
+		7D9F78DA2891E64900E8AA3E /* Array+Unique.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D9F78D92891E64800E8AA3E /* Array+Unique.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7D8B7F6C28A049DF00C7E620 /* CoatyObject+Identifiable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CoatyObject+Identifiable.swift"; sourceTree = "<group>"; };
+		7D8B7F6F28A049FC00C7E620 /* CoatyError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoatyError.swift; sourceTree = "<group>"; };
+		7D8B7F7128A04A6500C7E620 /* DiscoverManifestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverManifestController.swift; sourceTree = "<group>"; };
+		7D8B7F7428A04B5100C7E620 /* DiscoverManifestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverManifestView.swift; sourceTree = "<group>"; };
+		7D8B7F7628A04BD000C7E620 /* ConstellationServiceManifest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstellationServiceManifest.swift; sourceTree = "<group>"; };
+		7D8B7F7828A04D6E00C7E620 /* UpdatableObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatableObject.swift; sourceTree = "<group>"; };
+		7D8B7F7C28A065A400C7E620 /* UpdatingLifecycleController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatingLifecycleController.swift; sourceTree = "<group>"; };
+		7D9F78BF2891DCE200E8AA3E /* Constellation Tucana.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Constellation Tucana.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D9F78C22891DCE200E8AA3E /* Constellation_TucanaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constellation_TucanaApp.swift; sourceTree = "<group>"; };
+		7D9F78C42891DCE200E8AA3E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7D9F78C62891DCE400E8AA3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D9F78C92891DCE400E8AA3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7D9F78D32891DE7300E8AA3E /* CoatyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoatyService.swift; sourceTree = "<group>"; };
+		7D9F78D92891E64800E8AA3E /* Array+Unique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Unique.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D9F78BC2891DCE200E8AA3E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0F859C289233B800B13970 /* CocoaMQTT in Frameworks */,
+				7D0F859F289233CA00B13970 /* CoatySwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D8B7F6E28A049E500C7E620 /* CoatyService */ = {
+			isa = PBXGroup;
+			children = (
+				7D9F78D32891DE7300E8AA3E /* CoatyService.swift */,
+				7D8B7F6C28A049DF00C7E620 /* CoatyObject+Identifiable.swift */,
+				7D8B7F6F28A049FC00C7E620 /* CoatyError.swift */,
+				7D8B7F7828A04D6E00C7E620 /* UpdatableObject.swift */,
+				7D8B7F7C28A065A400C7E620 /* UpdatingLifecycleController.swift */,
+			);
+			path = CoatyService;
+			sourceTree = "<group>";
+		};
+		7D8B7F7328A04B3F00C7E620 /* DiscoverManifest */ = {
+			isa = PBXGroup;
+			children = (
+				7D8B7F7128A04A6500C7E620 /* DiscoverManifestController.swift */,
+				7D8B7F7428A04B5100C7E620 /* DiscoverManifestView.swift */,
+				7D8B7F7628A04BD000C7E620 /* ConstellationServiceManifest.swift */,
+			);
+			path = DiscoverManifest;
+			sourceTree = "<group>";
+		};
+		7D9F78B62891DCE200E8AA3E = {
+			isa = PBXGroup;
+			children = (
+				7D9F78C12891DCE200E8AA3E /* Constellation Tucana */,
+				7D9F78C02891DCE200E8AA3E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D9F78C02891DCE200E8AA3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D9F78BF2891DCE200E8AA3E /* Constellation Tucana.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D9F78C12891DCE200E8AA3E /* Constellation Tucana */ = {
+			isa = PBXGroup;
+			children = (
+				7D9F78C22891DCE200E8AA3E /* Constellation_TucanaApp.swift */,
+				7D9F78C42891DCE200E8AA3E /* ContentView.swift */,
+				7D8B7F7328A04B3F00C7E620 /* DiscoverManifest */,
+				7D8B7F6E28A049E500C7E620 /* CoatyService */,
+				7D9F78D92891E64800E8AA3E /* Array+Unique.swift */,
+				7D9F78C62891DCE400E8AA3E /* Assets.xcassets */,
+				7D9F78C82891DCE400E8AA3E /* Preview Content */,
+			);
+			path = "Constellation Tucana";
+			sourceTree = "<group>";
+		};
+		7D9F78C82891DCE400E8AA3E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7D9F78C92891DCE400E8AA3E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D9F78BE2891DCE200E8AA3E /* Constellation Tucana */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9F78CD2891DCE400E8AA3E /* Build configuration list for PBXNativeTarget "Constellation Tucana" */;
+			buildPhases = (
+				7D9F78BB2891DCE200E8AA3E /* Sources */,
+				7D9F78BC2891DCE200E8AA3E /* Frameworks */,
+				7D9F78BD2891DCE200E8AA3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Constellation Tucana";
+			packageProductDependencies = (
+				7D0F859B289233B800B13970 /* CocoaMQTT */,
+				7D0F859E289233CA00B13970 /* CoatySwift */,
+			);
+			productName = "Constellation Tucana";
+			productReference = 7D9F78BF2891DCE200E8AA3E /* Constellation Tucana.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D9F78B72891DCE200E8AA3E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					7D9F78BE2891DCE200E8AA3E = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 7D9F78BA2891DCE200E8AA3E /* Build configuration list for PBXProject "Constellation Tucana" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D9F78B62891DCE200E8AA3E;
+			packageReferences = (
+				7D0F859A289233B800B13970 /* XCRemoteSwiftPackageReference "CocoaMQTT" */,
+				7D0F859D289233CA00B13970 /* XCRemoteSwiftPackageReference "coaty-swift" */,
+			);
+			productRefGroup = 7D9F78C02891DCE200E8AA3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D9F78BE2891DCE200E8AA3E /* Constellation Tucana */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D9F78BD2891DCE200E8AA3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D9F78CA2891DCE400E8AA3E /* Preview Assets.xcassets in Resources */,
+				7D9F78C72891DCE400E8AA3E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D9F78BB2891DCE200E8AA3E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8B7F7728A04BD000C7E620 /* ConstellationServiceManifest.swift in Sources */,
+				7D8B7F7228A04A6500C7E620 /* DiscoverManifestController.swift in Sources */,
+				7D9F78DA2891E64900E8AA3E /* Array+Unique.swift in Sources */,
+				7D9F78D42891DE7400E8AA3E /* CoatyService.swift in Sources */,
+				7D8B7F7928A04D6E00C7E620 /* UpdatableObject.swift in Sources */,
+				7D9F78C52891DCE200E8AA3E /* ContentView.swift in Sources */,
+				7D8B7F6D28A049DF00C7E620 /* CoatyObject+Identifiable.swift in Sources */,
+				7D8B7F7528A04B5100C7E620 /* DiscoverManifestView.swift in Sources */,
+				7D8B7F7D28A065A400C7E620 /* UpdatingLifecycleController.swift in Sources */,
+				7D8B7F7028A049FC00C7E620 /* CoatyError.swift in Sources */,
+				7D9F78C32891DCE200E8AA3E /* Constellation_TucanaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D9F78CB2891DCE400E8AA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D9F78CC2891DCE400E8AA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D9F78CE2891DCE400E8AA3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Constellation Tucana/Preview Content\"";
+				DEVELOPMENT_TEAM = F8S46T9XAN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.atkn.constellation-tucana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7D9F78CF2891DCE400E8AA3E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Constellation Tucana/Preview Content\"";
+				DEVELOPMENT_TEAM = F8S46T9XAN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.atkn.constellation-tucana";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D9F78BA2891DCE200E8AA3E /* Build configuration list for PBXProject "Constellation Tucana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9F78CB2891DCE400E8AA3E /* Debug */,
+				7D9F78CC2891DCE400E8AA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9F78CD2891DCE400E8AA3E /* Build configuration list for PBXNativeTarget "Constellation Tucana" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9F78CE2891DCE400E8AA3E /* Debug */,
+				7D9F78CF2891DCE400E8AA3E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7D0F859A289233B800B13970 /* XCRemoteSwiftPackageReference "CocoaMQTT" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/emqx/CocoaMQTT.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		7D0F859D289233CA00B13970 /* XCRemoteSwiftPackageReference "coaty-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/phynics/coaty-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7D0F859B289233B800B13970 /* CocoaMQTT */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D0F859A289233B800B13970 /* XCRemoteSwiftPackageReference "CocoaMQTT" */;
+			productName = CocoaMQTT;
+		};
+		7D0F859E289233CA00B13970 /* CoatySwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7D0F859D289233CA00B13970 /* XCRemoteSwiftPackageReference "coaty-swift" */;
+			productName = CoatySwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7D9F78B72891DCE200E8AA3E /* Project object */;
+}
